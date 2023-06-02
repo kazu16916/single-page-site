@@ -5,20 +5,20 @@
 
 .list_1 ul {
     display: flex;
-    justify-content: center;
-    
+    margin-left: 0px;
     list-style: none;
-
+    justify-content: center;
 }
 .list_1 li{
     border-right: 1px solid #996633;
     text-align:center;
-    flex :0 0 5%;
+    flex :0 0 7%;
+    font-weight: bold;
     
 }
 .access li {
     border-right: none;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 .list_1 a {
     display: block;
@@ -28,14 +28,29 @@
 }
 .about {
     text-align: center;
-    margin-top: 50px
+    margin-top: 100px
 }
 .explanation_about {
     margin-top: 50px;
 }
 .explanation_about p {
+    font-size: 18px;
+}
+.explanation_about p {
     color:#996633;
     
+}
+.menu {
+    margin-top: 100px;
+    
+}
+.list_menu {
+    margin-top: 50px;
+}
+.list_menu li {
+    padding-bottom: 15px;
+    
+    font-size: 17px;
 }
 .logo_menu {
     text-align: center;
@@ -48,7 +63,80 @@
 .logo_photo {
     text-align: center;
 }
-.photo img {
-    text-align: center;
+.photo {
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.photo p {
+    color:#996633;
     
+}
+.photo img {
+    margin-top: 30px;
+}
+.photo p {
+    margin-top: 0px;
+}
+.logo_access {
+    text-align: center;
+    margin-top: 100px;
+}
+.explanation_access_1 {
+    display: flex;
+    width:fit-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.explanation_access_2 {
+    display: block;
+    margin: 100px 30px;
+    color: #663300;
+}
+.shop_name p {
+    font-weight: bold;
+    font-size: 20px
+}
+.tel p{
+    font-weight: bold;
+    font-size: 20px
+}
+footer {
+    background-color: #663300;
+}
+.footer_2 {
+    display: flex;
+    justify-content: center;
+    
+}
+.list_2 ul{
+    display: flex;
+    list-style:none;
+    position: relative;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.list_2 li{
+    border-right: 1px solid #996633;
+    text-align:center;
+    flex :0 0 35%;
+    
+}
+.list_2_access li {
+    border-right: none;
+    margin-left: 15px;
+}
+.list_2 a {
+    display: block;
+    line-height: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+.sannsyou p {
+    color: #ffffff;
+    position: absolute;
+    padding-left: 52px;
+    margin-bottom: 40px;
 }
