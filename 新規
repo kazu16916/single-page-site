@@ -1,0 +1,9 @@
+x = 10
+
+if x == 1:
+    print('yes')
+elif x < 10:
+    print('no')
+else:
+    print('yes or yes')
+    
