@@ -3,6 +3,13 @@
     text-align: center;
 }
 
+.logo_2 {
+    text-align: center;
+}
+.logo_2 img {
+    width: 1200px;
+}
+
 .list_1 ul {
     display: flex;
     margin-left: 0px;
@@ -68,6 +75,29 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+    text-align: center;
+    display: block;
+}
+.explanation_photo_1 img {
+    width: 1000px;
+}
+.explanation_photo_2 img {
+    width: 1000px;
+}
+.explanation_photo_3 img {
+    width: 1000px;
+}
+.explanation_photo_1 p {
+    text-align: left;
+
+}
+.explanation_photo_2 p {
+    text-align: left;
+    
+}
+.explanation_photo_3 p {
+    text-align: left;
+    
 }
 .photo p {
     color:#996633;
